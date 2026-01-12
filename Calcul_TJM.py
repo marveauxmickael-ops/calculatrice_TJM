@@ -52,7 +52,7 @@ with st.sidebar:
 
     st.divider()
     st.markdown("### 👨‍💻 À propos")
-    st.write("Cet outil est mis à disposition gratuitement pour aider les freelances à piloter leur rentabilité.")
+    st.write("Cet outil est proposé gratuitement afin d’aider les futurs freelances à suivre et optimiser leur rentabilité.")
     # MODIFIEZ ICI : Vos liens
     st.markdown("[Lien LinkedIn](https://linkedin.com/in/votre-profil)")
 
@@ -118,6 +118,6 @@ elif marge_pourcent > 20:
 # FOOTER
 st.markdown("""
     <div class="footer">
-        Outil gratuit proposé par <b>Votre Nom</b> • <a href="https://votre-site.com" target="_blank">Portfolio</a>
+        Outil gratuit proposé par <b>Mickael.M</b> • <a href="https://votre-site.com" target="_blank">Portfolio</a>
     </div>
     """, unsafe_allow_html=True)
